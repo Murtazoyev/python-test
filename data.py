@@ -7,6 +7,9 @@
 # print(f"Men {fullName} => Wepro o'quv markazida Back-End yo'nalishida dars olaman.")
 
 
+from pickletools import read_int4
+
+
 def pluse(a, b):
     return a + b
 
@@ -44,3 +47,12 @@ while True:
         continue
     else:
         break
+
+
+print("Salom dunyo")
+
+def hello(a):
+    return f"{a} ta olma oldim"
+
+natija = hello(12)
+print(natija)
